@@ -5,6 +5,8 @@ metadata:
 spec:
   containers:
   # - name: nginx
-  #   image: fsfsfsdfdsf
+  #   image: fsfsfsdfdsf  -- we get imagePullBackOff error
   - name: almalinux
-    image: almalinux:9
+    image: almalinux:9 
+  # -- without having command for almalinux, so we got CrashLoopBackOff
+   
