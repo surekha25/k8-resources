@@ -12,7 +12,7 @@ spec:
   csi:
     driver: ebs.csi.aws.com
     fsType: ext4
-    volumeHandle: vol-0123456789abcdef0 # Your EBS Volume ID
+    volumeHandle: vol-076838c32e28a179b # Your EBS Volume ID
  
 ---
 
