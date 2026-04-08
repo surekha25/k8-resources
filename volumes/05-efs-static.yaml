@@ -12,7 +12,7 @@ spec:
   persistentVolumeReclaimPolicy: Retain
   csi:
     driver: efs.csi.aws.com
-    volumeHandle: fs-e8a95a42 # change to my EFS volume ID
+    volumeHandle: fs-04a913e1d0ca44b67 # change to my EFS volume ID
 
 ---
 
